@@ -1,0 +1,16 @@
+COMMAND LINE:
+npm create vite@latest
+
+ERROR: 
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'vite@5.0.9',
+npm WARN EBADENGINE   required: { node: '^18.0.0 || >=20.0.0' },
+npm WARN EBADENGINE   current: { node: 'v19.6.0', npm: '9.8.1' }
+npm WARN EBADENGINE }
+
+FIX?
+nvm install 18.0.0
+
+COMMAND LINE: 
+npm i framer-motion react-anchor-link-smooth-scroll
+
